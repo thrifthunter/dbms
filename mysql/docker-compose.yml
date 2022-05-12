@@ -7,4 +7,7 @@ services:
     ports:
       - "3306:3306"
     environment:
-      MYSQL_ROOT_PASSWORD: password
+      MYSQL_ROOT_PASSWORD: somethinghard
+      MYSQL_USER: thrift
+      MYSQL_PASSWORD: hhrifttunter
+      MYSQL_DATABASE: thrifthunter
