@@ -3,6 +3,6 @@ CREATE TABLE users (
 	email VARCHAR(50) NOT NULL UNIQUE KEY,
 	password VARCHAR(50) NOT NULL,
 	phone VARCHAR(14) NOT NULL,
-	username VARCHAR(50) NOT NULL,
+	name VARCHAR(50) NOT NULL,
 	created_at TIMESTAMP
 )
